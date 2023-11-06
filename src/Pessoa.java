@@ -8,7 +8,14 @@ public class Pessoa {
     private double altura;
     private double peso;
 
+    private  int idFederacao;
+    public  int getidFederacao(){
+        return  idFederacao;
+    }
 
+    public void setIdFederacaoFederacao(int idfederacao) {
+       this.idFederacao = idfederacao;
+    }
     // Getters e setters
 
     public String getNome() {
@@ -50,5 +57,10 @@ public class Pessoa {
 
     public void setPeso(double peso) {
         this.peso = peso;
+    }
+
+    // Metodos
+    public String sacar(){
+        return "Não sei sacar...";
     }
 }
